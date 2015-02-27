@@ -1,0 +1,30 @@
+h1 {
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 5em;
+}
+header{
+  background-color: darkorange;
+}
+nav a {
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 3px solid #808080;
+  padding: 0.5em 0.5em;
+  border-radius: 12px;
+  background-color: #808080;
+
+}
+nav a:hover {
+  background-color: #000000;
+  border: 3px solid #000000;
+}
+  nav li {
+    display: inline;
+
+  }
+  nav ol {
+    list-style-type: none;
+    padding: 0;
+  }
