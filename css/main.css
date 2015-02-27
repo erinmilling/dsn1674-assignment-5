@@ -28,14 +28,15 @@ nav a {
   display: inline-block;
   color: #FFFFFF;
   text-decoration: none;
-  border: 3px solid #808080;
-  padding: 0.5em 0.5em;
-  background-color: #808080;
+  border: 1px solid #9a3f09;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  background-color: #d76826;
+  margin: 0;
 
 }
 nav a:hover {
-  background-color: #000000;
-  border: 3px solid #000000;
+  background-color: #9a3f09;
+  border: 1px solid #9a3f09;
 }
   nav li {
     display: inline;
