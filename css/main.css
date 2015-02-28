@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Baskerville', serif;
 }
 
 *, *::before, *::after{
@@ -46,3 +47,29 @@ nav a:hover {
     list-style-type: none;
     padding: 0;
   }
+div {
+  background-color: #f29b37;
+  text-align: center
+}
+h2{
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 2em;
+  margin: 0em 0em .5em 0em;
+
+}
+.grains {
+  float: left;
+  width: 30%;
+}
+main{
+  padding: 0em 1em 0em 1em;
+}
+.cereals{
+  float: right;
+  width: 30%;
+}
+.quinoa{
+  float: right;
+  width: 30%;
+}
