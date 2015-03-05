@@ -93,6 +93,21 @@ h3{
   text-align: center;
   font-size: 1.50em;
 }
+.peanuts{
+  float: left;
+  width: 20%;
+  padding: 1em 1em;
+}
+.beans{
+  float: left;
+  width: 20%;
+  padding: 1em 1em;
+}
+.lentils{
+  float: left;
+  width: 20%;
+  padding: 1em 1em;
+}
 .footer{
   background: #d76826;
   text-align: center;
