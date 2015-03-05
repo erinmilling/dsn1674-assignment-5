@@ -85,3 +85,14 @@ main{
   float: right;
   width: 30%
 }
+figcaption{
+  color: #FFFFFF;
+  display: inline-block;
+}
+.footer{
+  background: #d76826;
+  text-align: center;
+  color: #FFE6E6;
+  font-size: 1em;
+
+}
