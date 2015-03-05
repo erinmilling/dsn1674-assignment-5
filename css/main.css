@@ -47,7 +47,7 @@ nav a:hover {
     list-style-type: none;
     padding: 0;
   }
-div {
+figure {
   background-color: #f29b37;
   text-align: center
 }
@@ -72,4 +72,16 @@ main{
 .quinoa{
   float: right;
   width: 30%;
+}
+.corn{
+  float: center;
+  width: 30%;
+}
+.rice{
+  float: left;
+  width: 30%
+}
+.oats{
+  float: right;
+  width: 30%
 }
