@@ -61,18 +61,22 @@ h2{
 }
 .grains {
   float: left;
-  width: 30%;
+  width: 40%;
+  margin: 0 .5em .25em 0em;
 }
 main{
   padding: 0em 1em 0em 1em;
 }
 .cereals{
   float: right;
-  width: 30%;
+  width: 40%;
+  margin: 1em 0em 0em .5em;
 }
 .quinoa{
   float: right;
-  width: 30%;
+  width: 40%;
+  clear: right;
+  margin: 1em 0em 1em .5em;
 }
 .corn{
   float: center;
@@ -119,7 +123,6 @@ dt {
 }
 dd {
   font-style: italic;
-  margin-top: 0;
 }
 dl img{
   position: absolute;
