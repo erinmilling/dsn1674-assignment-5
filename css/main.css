@@ -50,11 +50,6 @@ nav a:hover {
     list-style-type: none;
     padding: 0;
   }
-.famous {
-  background-color: #f29b37;
-  text-align: center;
-  margin: 0em 0em 1em 0em;
-}
 h2{
   color: white;
   font-family: 'Lobster Two', cursive;
@@ -69,6 +64,11 @@ h2{
 }
 main{
   padding: 0em 1em 0em 1em;
+}
+.famous {
+  background-color: #f29b37;
+  text-align: center;
+  margin: 0em 0em 2em 0em;
 }
 .cereals{
   float: right;
@@ -88,16 +88,25 @@ main{
 }
 .rice{
   float: left;
-  width: 30%;
-
-
+  width: 50%;
 }
 .oats{
   float: right;
-  width: 30%;
+  width: 50%;
 
 }
 figcaption{
+  color: #FFFFFF;
+  font-style: italic;
+  clear: both;
+  text-align: center;
+}
+.Rice {
+  color: #FFFFFF;
+  padding: 0em 6em 1em 0em;
+  font-style: italic;
+}
+.Oats {
   color: #FFFFFF;
   font-style: italic;
 }
