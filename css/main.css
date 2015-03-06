@@ -1,5 +1,6 @@
 html{
   padding: 0em 1em 0em 1em;
+  font-family: 'merriweather', serif;
 }
 body{
   margin: -1em;
@@ -150,8 +151,6 @@ dt {
 dl img{
   position: absolute;
   left: 0;
-  padding: 0;
-  clear: left;
   float: left;
 
 }
