@@ -1,5 +1,7 @@
+
 body{
-  margin: 0;
+  margin: -1em;
+  padding: -1em;
   font-family: 'Baskerville', serif;
 }
 
@@ -15,6 +17,7 @@ h1 {
 header{
   background-color: #d76826;
   text-align: center;
+  padding: 1em 0em 0em 0em;
 
 }
 .grain-left {
@@ -47,7 +50,7 @@ nav a:hover {
     list-style-type: none;
     padding: 0;
   }
-figure {
+.famous {
   background-color: #f29b37;
   text-align: center;
   margin: 0em 0em 1em 0em;
@@ -80,18 +83,23 @@ main{
 }
 .corn{
   float: center;
-  width: 30%;
+  width: 100%;
+  clear: center;
 }
 .rice{
   float: left;
-  width: 30%
+  width: 30%;
+
+
 }
 .oats{
   float: right;
-  width: 30%
+  width: 30%;
+
 }
 figcaption{
   color: #FFFFFF;
+  font-style: italic;
 }
 h3{
   font-size: 1.50em;
@@ -99,17 +107,14 @@ h3{
   padding: 0 0 0 2em;
 }
 .peanuts{
-
   width: 20%;
 
 }
 .beans{
-
   width: 20%;
 
 }
 .lentils{
-
   width: 20%;
 
 }
