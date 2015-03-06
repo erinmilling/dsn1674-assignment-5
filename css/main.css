@@ -1,4 +1,6 @@
-
+html{
+  padding: 0em 1em 0em 1em;
+}
 body{
   margin: -1em;
   padding: -1em;
@@ -55,6 +57,7 @@ h2{
   font-family: 'Lobster Two', cursive;
   font-size: 2em;
   margin: 0em 0em .5em 0em;
+  display: block;
 
 }
 .grains {
@@ -68,7 +71,8 @@ main{
 .famous {
   background-color: #f29b37;
   text-align: center;
-  margin: 0em 0em 2em 0em;
+  margin: 0em 0em 0em 0em;
+  padding: 0;
 }
 .cereals{
   float: right;
@@ -101,6 +105,10 @@ figcaption{
   clear: both;
   text-align: center;
 }
+figure{
+  margin-bottom: 0;
+}
+
 .Rice {
   color: #FFFFFF;
   padding: 0em 6em 1em 0em;
@@ -113,7 +121,8 @@ figcaption{
 h3{
   font-size: 1.50em;
   display: inline-block;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 2.2em;
+  margin: 1em 0em 0em 0em;
 }
 .peanuts{
   width: 20%;
@@ -128,19 +137,19 @@ h3{
 
 }
 dl{
-  padding-left: 75px;
+  padding-left: 90px;
   position: relative;
+  margin: 1em 0em 1em 1em;
 }
 dt {
   font-style: italic;
-  font-weight: bold;
-}
-dd {
-  font-style: italic;
+  font-size: .75em;
 }
 dl img{
   position: absolute;
   left: 0;
+  margin: 1em;
+  padding: 0;
 }
 .footer{
   background: #d76826;
