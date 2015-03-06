@@ -4,7 +4,7 @@ html{
 }
 body{
   margin: -1em;
-  padding: -1em;
+  padding: 0em;
   font-family: 'Baskerville', serif;
 }
 
@@ -87,9 +87,8 @@ main{
   margin: 1em 0em 1em .5em;
 }
 .corn{
-  float: center;
   width: 100%;
-  clear: center;
+
 }
 .rice{
   float: left;
