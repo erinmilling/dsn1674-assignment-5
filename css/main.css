@@ -90,23 +90,40 @@ figcaption{
   color: #FFFFFF;
 }
 h3{
-  text-align: center;
   font-size: 1.50em;
+  display: inline-block;
+  padding: 0 0 0 2em;
 }
 .peanuts{
-  float: left;
+
   width: 20%;
-  padding: 1em 1em;
+
 }
 .beans{
-  float: left;
+
   width: 20%;
-  padding: 1em 1em;
+
 }
 .lentils{
-  float: left;
+
   width: 20%;
-  padding: 1em 1em;
+
+}
+dl{
+  padding-left: 75px;
+  position: relative;
+}
+dt {
+  font-style: italic;
+  font-weight: bold;
+}
+dd {
+  font-style: italic;
+  margin-top: 0;
+}
+dl img{
+  position: absolute;
+  left: 0;
 }
 .footer{
   background: #d76826;
