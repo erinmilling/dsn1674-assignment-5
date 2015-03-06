@@ -107,6 +107,7 @@ figcaption{
 }
 figure{
   margin-bottom: 0;
+  margin: 0;
 }
 
 .Rice {
@@ -130,26 +131,29 @@ h3{
 }
 .beans{
   width: 20%;
-
 }
 .lentils{
   width: 20%;
-
 }
 dl{
   padding-left: 90px;
   position: relative;
   margin: 1em 0em 1em 1em;
+
 }
 dt {
   font-style: italic;
-  font-size: .75em;
+  font-size: 1em;
+  margin: 0em 0em 2.5em 0em;
+
 }
 dl img{
   position: absolute;
   left: 0;
-  margin: 1em;
   padding: 0;
+  clear: left;
+  float: left;
+
 }
 .footer{
   background: #d76826;
